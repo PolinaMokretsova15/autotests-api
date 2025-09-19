@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc9bdc9-08e0-46c8-a9a0-de817772f343" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/httpx_create_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpx_delete_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpx_get_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_update_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
