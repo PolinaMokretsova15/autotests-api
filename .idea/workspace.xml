@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc9bdc9-08e0-46c8-a9a0-de817772f343" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/httpx_update_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/api_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.async.executor": "Run",
-    "Python.fakers.executor": "Run",
-    "Python.httpx_example.executor": "Run",
-    "Python.pip.executor": "Run",
-    "Python.websocket_users_server.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.async.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fakers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.httpx_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.websocket_users_server.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.fakers">
     <configuration name="async" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
