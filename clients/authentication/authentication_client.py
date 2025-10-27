@@ -1,6 +1,16 @@
+from time import struct_time
+
 from clients.api_client import APIClient
 from httpx import Response
 from typing import TypedDict
+
+from clients.public_http_builder import get_public_http_client
+
+
+class Token(TypedDict):
+    tokenType: str
+    accessToken: str
+    refreshToken: str
 
 class LoginRequestDict(TypedDict):
     """
@@ -8,6 +18,9 @@ class LoginRequestDict(TypedDict):
     """
     email: str
     password: str
+
+class LoginResponseDict(TypedDict):
+    token: Token
 
 
 class RefreshTokenDict(TypedDict):
@@ -30,6 +43,11 @@ class AuthenticationClient(APIClient):
          """
         return self.post("/api/v1/authentication/login", json=request)
 
+    def login(self, request: LoginRequestDict) -> LoginResponseDict:
+        response = self.login_api(request)
+        return response. json()
+
+
 
     def refresh_api(self, request: RefreshTokenDict) -> Response:
         """
@@ -39,4 +57,8 @@ class AuthenticationClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("/api/v1/authentication,refresh", json=request)
+
+def get_authentication_client() -> AuthenticationClient:
+    return AuthenticationClient(client=get_public_http_client())
+
 
