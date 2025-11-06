@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc9bdc9-08e0-46c8-a9a0-de817772f343" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/files/files_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/users_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/courses/courses_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_client_create_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_client_create_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_client_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/files/files_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/private_http_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/users/private_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/users/public_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
