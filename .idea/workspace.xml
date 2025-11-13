@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc9bdc9-08e0-46c8-a9a0-de817772f343" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/courses/courses_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_schema_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_client_create_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_client_create_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/courses_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.async.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fakers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.httpx_example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pip.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pydantic_basics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pydantic_example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.websocket_users_server.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pmokretsova/Desktop/course_stepik/autotests-api&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.async.executor": "Run",
+    "Python.fakers.executor": "Run",
+    "Python.httpx_example.executor": "Run",
+    "Python.json_schema_example.executor": "Run",
+    "Python.pip.executor": "Run",
+    "Python.pydantic_basics.executor": "Run",
+    "Python.pydantic_example.executor": "Run",
+    "Python.pydantic_json_schema_create_user.executor": "Run",
+    "Python.websocket_users_server.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/pmokretsova/Desktop/course_stepik/autotests-api",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/testdata/files" />
@@ -63,7 +67,7 @@
       <recent name="$PROJECT_DIR$/clients" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pydantic_basics">
+  <component name="RunManager" selected="Python.pydantic_json_schema_create_user">
     <configuration name="fakers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
@@ -86,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="httpx_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="json_schema_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json_schema_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="websocket_users_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pydantic_json_schema_create_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +169,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/websocket_users_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pydantic_json_schema_create_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pydantic_json_schema_create_user" />
+        <item itemvalue="Python.json_schema_example" />
         <item itemvalue="Python.pydantic_basics" />
         <item itemvalue="Python.pydantic_example" />
         <item itemvalue="Python.fakers" />
-        <item itemvalue="Python.httpx_example" />
-        <item itemvalue="Python.websocket_users_server" />
       </list>
     </recent_temporary>
   </component>

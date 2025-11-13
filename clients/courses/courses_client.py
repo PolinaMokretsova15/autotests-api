@@ -8,7 +8,7 @@ from clients.courses.courses_schema import ParamsSchema, CreateCourseRequestSche
 
 class CoursesClient(APIClient):
     def get_courses_view_api(self, query: ParamsSchema )-> Response:
-        return self. get("/api/v1/courses", params=query)
+        return self. get("/api/v1/courses", params=query.model_dump(by_alias=True))
 
     def get_course_view_api(self, course_id: str)-> Response:
         return self.get(f"/api/v1/courses/{course_id}")

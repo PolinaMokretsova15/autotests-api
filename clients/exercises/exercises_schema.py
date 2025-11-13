@@ -14,7 +14,7 @@ class ExerciseSchema(BaseModel):
     description: str
     estimated_time: str = Field(alias="estimatedTime")
 
-class CourseIdParamsSchema(BaseModel):
+class GetExercisesQuerySchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
     """
     Query-параметр для получения списка заданий по курсу

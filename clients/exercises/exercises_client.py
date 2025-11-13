@@ -19,7 +19,7 @@ class ExercisesClient(APIClient):
           Returns:
                 Response: HTTP-ответ сервера (список заданий в теле ответа).
         """
-        return self.get("/api/v1/exercises", params=query)
+        return self.get("/api/v1/exercises", params=query.model_dump(by_alias=True))
 
     def get_exercise_api(self, exercise_id: str)-> Response:
         """

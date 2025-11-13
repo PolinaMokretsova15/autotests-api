@@ -19,7 +19,7 @@ class CourseSchema(BaseModel):
     estimated_time: str = Field(alias="estimatedTime")
     created_by_user: UserSchema = Field(alias="createdByUser")
 
-class ParamsSchema(BaseModel):
+class GetCoursesQuerySchema(BaseModel):
     """
     Параметры фильтрации курсов при запросе списка
     """
