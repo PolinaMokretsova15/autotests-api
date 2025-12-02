@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc9bdc9-08e0-46c8-a9a0-de817772f343" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pydantic_json_schema_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faker_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_client_create_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_client_create_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_client_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_create_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_create_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_create_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_delete_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_delete_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_get_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_update_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_update_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydantic_json_schema_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/pydantic_json_schema_get_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/fakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.async.executor": "Run",
+    "Python.faker_example.executor": "Run",
     "Python.fakers.executor": "Run",
     "Python.httpx_example.executor": "Run",
     "Python.json_schema_example.executor": "Run",
@@ -62,7 +73,29 @@
       <recent name="$PROJECT_DIR$/clients" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pydantic_json_schema_get_user">
+  <component name="RunManager" selected="Python.faker_example">
+    <configuration name="faker_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autotests-api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faker_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="json_schema_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
@@ -99,28 +132,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pydantic_basics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pydantic_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="autotests-api" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pydantic_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.faker_example" />
         <item itemvalue="Python.pydantic_json_schema_get_user" />
         <item itemvalue="Python.pydantic_json_schema_create_user" />
         <item itemvalue="Python.json_schema_example" />
         <item itemvalue="Python.pydantic_basics" />
-        <item itemvalue="Python.pydantic_example" />
       </list>
     </recent_temporary>
   </component>

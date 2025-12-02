@@ -3,13 +3,13 @@ from clients.users.private_users_client import get_private_users_client
 from clients.users.users_schema import CreateUserRequestSchema, GetUserResponseSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from tools.assertions.schema import validate_json_schema
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 def script_user() -> None:
     public_client_init = get_public_users_client()
 
     request = CreateUserRequestSchema(
-        email = get_random_email(),
+        email = fake.email(),
         password="12345",
         first_name="Po",
         last_name="Example",

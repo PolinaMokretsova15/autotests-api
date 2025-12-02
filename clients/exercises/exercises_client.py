@@ -3,13 +3,13 @@ from httpx import Response
 from typing import TypedDict
 
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
-from clients.exercises.exercises_schema import CourseIdParamsSchema, CreateExercisesRequestSchema, UpdateExercisesRequestSchema, GetExerciseResponseSchema, GetExercisesResponseSchema
+from clients.exercises.exercises_schema import GetExercisesQuerySchema, CreateExercisesRequestSchema, UpdateExercisesRequestSchema, GetExerciseResponseSchema, GetExercisesResponseSchema
 
 class ExercisesClient(APIClient):
     """
     Клиент для работы с ресурсом /api/v1/exercises
     """
-    def get_exercises_api(self, query: CourseIdParamsSchema)-> Response:
+    def get_exercises_api(self, query: GetExercisesQuerySchema)-> Response:
         """
         GET /api/v1/exercises — получение списка заданий для определенного курса.
 
@@ -77,7 +77,7 @@ class ExercisesClient(APIClient):
         response = self.get_exercise_api(exercise_id)
         return GetExerciseResponseSchema.model_validate_json(response.text)
 
-    def get_exercises(self, query: CourseIdParamsSchema) -> GetExercisesResponseSchema:
+    def get_exercises(self, query: GetExercisesQuerySchema) -> GetExercisesResponseSchema:
         """
         Возвращает список заданий для указанного курса.
         """
