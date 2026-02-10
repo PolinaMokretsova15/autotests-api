@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc9bdc9-08e0-46c8-a9a0-de817772f343" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test_pytest_markers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,33 +36,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_pytest.test_user_login.executor": "Run",
-    "Python.api_client_create_exercise.executor": "Run",
-    "Python.api_client_get_user.executor": "Run",
-    "Python.async.executor": "Run",
-    "Python.authentication_schema.executor": "Run",
-    "Python.exercises_schema.executor": "Run",
-    "Python.faker_example.executor": "Run",
-    "Python.fakers.executor": "Run",
-    "Python.files_schema.executor": "Run",
-    "Python.httpx_example.executor": "Run",
-    "Python.json_schema_example.executor": "Run",
-    "Python.pip.executor": "Run",
-    "Python.pydantic_basics.executor": "Run",
-    "Python.pydantic_example.executor": "Run",
-    "Python.pydantic_json_schema_create_user.executor": "Run",
-    "Python.pydantic_json_schema_get_user.executor": "Run",
-    "Python.users_schema.executor": "Run",
-    "Python.websocket_users_server.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/pmokretsova/Desktop/course_stepik/autotests-api",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_pytest.test_user_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_client_create_exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_client_get_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.async.executor&quot;: &quot;Run&quot;,
+    &quot;Python.authentication_schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercises_schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python.faker_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fakers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.files_schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python.httpx_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.json_schema_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pydantic_basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pydantic_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pydantic_json_schema_create_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pydantic_json_schema_get_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.users_schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python.websocket_users_server.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pmokretsova/Desktop/course_stepik/autotests-api&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;tasks.servers&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/testdata/files" />
@@ -199,5 +202,13 @@
       <updated>1755785952250</updated>
     </task>
     <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
