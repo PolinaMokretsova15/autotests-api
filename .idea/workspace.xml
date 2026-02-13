@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc9bdc9-08e0-46c8-a9a0-de817772f343" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_pytest_skip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_pytest_skipif.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_pytest_xfail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_fixtures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
